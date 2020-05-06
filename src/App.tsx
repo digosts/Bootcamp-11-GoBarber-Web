@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import SignIn from './pages/SignIn'
+import SignIn from './pages/SignIn';
 // import SignUp from './pages/SignUp'
-import GlobalStyle from './styles/global'
+import GlobalStyle from './styles/global';
 
-import AuthContext from './context/AuthContext'
+import AuthContext from './context/AuthContext';
 
 const App: React.FC = () => (
   <>
@@ -14,5 +14,5 @@ const App: React.FC = () => (
 
     <GlobalStyle />
   </>
-)
-export default App
+);
+export default App;
